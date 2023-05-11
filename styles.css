@@ -1,14 +1,14 @@
 .logo {
-  width: 50%;
-  height: 100%;
-  border-radius: 10px;
+  width: 100px;
+  height: 95px;
+  border-radius: 100px;
 }
 ul {
   font-size: larger;
 }
 .profile {
-  width: 450px;
-  height: 600px;
+  width: 30vw;
+  height: 80vh;
 }
 @media (max-width: 900px) {
   .profile {
@@ -17,17 +17,23 @@ ul {
     margin: 0;
     margin-top: 5%;
   }
-  .landing {
+  .all {
     background-size: cover;
   }
+  .intro {
+    text-align: center;
+  }
 }
-.landing {
+.all {
   background-image: url(BackSection-About.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: blue;
+  color: white;
 }
-
-body {
-  background-color: rgb(39, 20, 149);
+span.h1 {
+  color: #00b4d8;
+}
+a.nav-link {
+  color: white;
 }
