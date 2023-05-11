@@ -37,3 +37,13 @@ span.h1 {
 a.nav-link {
   color: white;
 }
+.all2 {
+  background-image: url(backphoto1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+button.navbar-toggler {
+  background-color: #00b4d8;
+}
