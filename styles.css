@@ -25,10 +25,9 @@ ul {
   }
 }
 .all {
-  background-image: url(BackSection-About.jpg);
+  background-image: url(maincover.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: blue;
   color: white;
 }
 span.h1 {
@@ -46,4 +45,13 @@ a.nav-link {
 }
 button.navbar-toggler {
   background-color: #00b4d8;
+}
+.form{
+  height:100vh;
+}
+form{
+  margin: 50% 50% 50% 50%;
+}
+.ints{
+  border: 1px solid black;
 }
