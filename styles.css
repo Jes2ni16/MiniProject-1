@@ -48,15 +48,15 @@ button.navbar-toggler {
 }
 
 /*this style is for log-in*/
-.input_form{
+.input-form{
 width: 80%;
 }
-.log_in{
+.log-in{
   width: 60%;
 }
 .parents{
   text-align: center; 
-  background-color: rgb(148, 206, 199);
+
   width:80%;
  
 }
@@ -69,8 +69,11 @@ width: 80%;
   font-weight:bold;
   font-size: 150%;
   width: 100%;
+ 
 }
-
+main{
+  background-color: rgb(200, 194, 186);
+}
 
 .form{
   height: 100vh;
@@ -78,4 +81,10 @@ width: 80%;
 .first{
   color: blue;
 }
+.parent_input{
+  border-radius: 5%;
+  padding:px;
+  background-color: rgb(148, 206, 199);
+}
+
 /*this style is for log-in*/
