@@ -44,6 +44,7 @@ main{
 /*This style is for Home Page*/
 .nav-wrap{
   max-height: 50px;
+ 
 }
 .me-2{
   max-width: 60%;
@@ -52,8 +53,9 @@ main{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   background-color:#00b4d8;
   color: white;
-  border-radius: 30%;
+  border-radius: 10px;
+ 
 }
-#nav{
-  background-color: aqua;
+.navs{
+  background-color: #81e0f3;
 }
