@@ -1,53 +1,5 @@
-.logo {
-  width: 100px;
-  height: 95px;
-  border-radius: 100px;
-}
-ul {
-  font-size: larger;
-}
-.profile {
-  width: 30vw;
-  height: 80vh;
-}
-@media (max-width: 900px) {
-  .profile {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    margin-top: 5%;
-  }
-  .all {
-    background-size: cover;
-  }
-  .intro {
-    text-align: center;
-  }
-}
-.all {
-  background-image: url(maincover.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-span.h1 {
-  color: #00b4d8;
-}
-a.nav-link {
-  color: white;
-}
-.all2 {
-  background-image: url(backphoto1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
-button.navbar-toggler {
-  background-color: #00b4d8; 
-}
 
-/*this style is for log-in*/
+/*this style is for log-in page*/
 .input-form{
 width: 80%;
 }
@@ -88,3 +40,20 @@ main{
 }
 
 /*this style is for log-in*/
+
+/*This style is for Home Page*/
+.nav-wrap{
+  max-height: 50px;
+}
+.me-2{
+  max-width: 60%;
+}
+.brand{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  background-color:#00b4d8;
+  color: white;
+  border-radius: 30%;
+}
+#nav{
+  background-color: aqua;
+}
