@@ -1,44 +1,23 @@
 
 /*this style is for log-in page*/
-.input-form{
-width: 80%;
+.log_in_body{
+  background-color: #e9edc9;
 }
-.log-in{
-  width: 60%;
-}
-.parents{
-  text-align: center; 
-
-  width:80%;
- 
-}
-.borders{
-  border: 1px solid rgba(0, 0, 0, 0.448);
-}
-.ints{
-  background-color: #00b4d8;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight:bold;
-  font-size: 150%;
-  width: 100%;
- 
-}
-main{
-  background-color: rgb(200, 194, 186);
-}
-
 .form{
-  height: 100vh;
+  background-color: #bde0fe;
 }
-.first{
-  color: blue;
+.h2{
+  text-align: center;
 }
-.parent_input{
-  border-radius: 5%;
-  padding:px;
-  background-color: rgb(148, 206, 199);
+.button{
+  text-align: center;
 }
-
+div a{
+  text-decoration: none;
+}
+.log_in{
+  width: 50%;
+}
 /*this style is for log-in*/
 
 /*This style is for Home Page*/
