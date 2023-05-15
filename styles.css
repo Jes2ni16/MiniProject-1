@@ -58,12 +58,13 @@ main{
 }
 .navs{
   background-color: #81e0f3;
+  
 }
 .icons{
   padding-left:100%;
+}
 
   /*this is for right element styling*/
-}
 .left{
   border-right: 1px solid black;
 }
@@ -76,4 +77,14 @@ background-color: bisque;
 }
 .mains{
   background-color:#e9edc9;
+}
+.left_container{
+  overflow-y: scroll;
+  height: 100vh;
+  
+}
+body{
+  width: cover;
+  overflow-x: hidden;
+  padding-top: 45px;
 }
