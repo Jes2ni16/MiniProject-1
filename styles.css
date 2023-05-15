@@ -59,3 +59,18 @@ main{
 .navs{
   background-color: #81e0f3;
 }
+.icons{
+  padding-left:100%;
+
+  /*this is for right element styling*/
+}
+.left{
+  border-right: 1px solid black;
+}
+a:hover{
+background-color: bisque;
+}
+.right_row .user_profile_img{
+  max-width: 240px;
+  max-height: 50px;
+}

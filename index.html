@@ -19,30 +19,30 @@
     />
   </head>
   <body>
-    <!--This is for Header part-->
-    <div class="row container-fluid m-0 w-100" id="nav">
-      <div class="d-flex container-fluid nav-wrap col-4 d-none d-sm-block my-auto">
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success search" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
+   
+    <div class="row navs">
+      <div class="d-flex container-fluid nav-wrap col-4 my-auto ms-3">
+        <form class="form-inline">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
         </form>
+        
       </div>
-      <div class="container-fluid col-2 my-auto brand fs-2 my-5 ps-3">VIDPARADE</div>
-      <div class="col-6 d-flex justify-content-end">
+      <div class="container-fluid col-3 my-auto brand fs-2 my-5 px-auto d-none d-sm-block text-center ">VIDPARADE</div>
+      <div class="col-4 d-flex justify-content-end ">
 
         
-        <a href="#home" class="btn btn-secondary me-3"
+        <a href="#home" class="btn btn-secondary me-3 "
           ><i class="bi bi-house"></i
         ></a>
 
-        <div class="dropdown">
+        <div class="dropdown message">
           <a
             class="btn btn-secondary me-3"
             href="#"
@@ -54,9 +54,9 @@
             <i class="bi bi-chat-square-fill"></i>
           </a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action 1</a></li>
-            <li><a class="dropdown-item" href="#">Action 2</a></li>
-            <li><a class="dropdown-item" href="#">Action 3</a></li>
+          <div class="user"> <li><a class="dropdown-item" href="#other-user">Message Example 1</a></li></div> 
+           <div class="user"> <li><a class="dropdown-item" href="#other-user">Message Example 2</a></li></div>
+          <div class="user"> <li><a class="dropdown-item" href="#other-user">Message Example 3</a></li></div> 
           </ul>
         </div>
 
@@ -73,20 +73,68 @@
           </a>
 
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action 1</a></li>
-            <li><a class="dropdown-item" href="#">Action 2</a></li>
-            <li><a class="dropdown-item" href="#">Action 3</a></li>
+            <li><a class="dropdown-item" href="#other-user">Notif Example 1</a></li>
+            <li><a class="dropdown-item" href="#other-user">Action 2</a></li>
+            <li><a class="dropdown-item" href="#other-user">Action 3</a></li>
           </ul>
         </div>
-        <a href="#home" class="btn btn-secondary me-3"
+      <div class="me-4"> <a href="#shop" class="btn btn-secondary"
         ><i class="bi bi-shop-window"></i></i
-      ></a>
+      ></a></div>
       </div>
     </div>
-    <!--This end for Header-->
-    <div class="row container-fluid"></div>
-    <div class="row container-fluid"></div>
+ <div class="row mains">
+  <!--This is for side bar-->
+<div class="col-3 d-none d-sm-block left">
 
+  <div class="row right_row container-fluid">
+ <a href="user_profile"  class="user_profile mt-3 ms-3 ">
+  <div class="d-flex justify-content-space-between mx-0">
+<img src="profile.jpg" alt="profile" class="user_profile_img">
+<p class="ms-4 my-auto user-name fs-5"><strong> Brion Jestoni Diaz</strong></p></div>
+</a></div>
+
+
+<div class="row right_row container-fluid">
+  <a href="user_profile"  class="user_profile mt-3 ms-3 ">
+   <div class="d-flex justify-content-space-between ">
+    <i class="bi bi-people fs-2"></i>
+ <p class="ms-4 my-auto user-name fs-5">Followers</p></div>
+ </a></div>
+
+
+ <div class="row right_row container-fluid">
+  <a href="user_profile"  class="user_profile mt-3 ms-3 ">
+   <div class="d-flex justify-content-space-between ">
+    <i class="bi bi-people fs-2"></i>
+ <p class="ms-4 my-auto user-name fs-5">Following</p></div>
+ </a></div>
+
+
+ <div class="row right_row container-fluid">
+  <a href="user_profile"  class="user_profile mt-3 ms-3 ">
+   <div class="d-flex justify-content-space-between ">
+    <i class="bi bi-clock-history fs-2 "></i>
+ <p class="ms-4 my-auto user-name fs-5">Following</p></div>
+ </a></div>
+
+
+
+<div class="row">asas</div>
+<div class="row">asas</div>
+
+
+
+</div>
+
+<div class="col-5 center">sadsd</div>
+<div class="col-3 d-none d-sm-block ">asdads</div>
+
+
+
+
+</div>
+   <div class="container-fluid footer"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
