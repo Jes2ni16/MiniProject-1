@@ -1,68 +1,116 @@
-
 /*this style is for log-in page*/
-.log_in_body{
+@media screen and(min-width:900px){
+
+.main {
+  height: 100vh;
+}
+}
+.logo {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+}
+.logo_name{
+  color: purple;
+ 
+  border-radius: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+
+
+.log_in_body {
   background-color: #e9edc9;
 }
-.form{
-  background-color: #bde0fe;
+
+.form {
+  background-color: #cfbaf0;
 }
-.h2{
+
+.title {
+  text-align: center;
+  background-color: #8338ec;
+  color: white;
+}
+
+.button {
   text-align: center;
 }
-.button{
-  text-align: center;
-}
-div a{
+
+div a {
   text-decoration: none;
 }
-.log_in{
-  width: 50%;
+
+.log_in {
+  width: 70%;
 }
+
+.border {
+  border-radius: 10px;
+}
+
+.bords {
+  border-bottom: 1px solid black;
+}
+
+#title {
+  color: white;
+}
+
 /*this style is for log-in*/
 
 /*This style is for Home Page*/
-.nav-wrap{
+.nav-wrap {
   max-height: 50px;
- 
-}
-.me-2{
-  max-width: 60%;
-}
-.brand{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-  background-color:#00b4d8;
-  color: white;
-  border-radius: 10px;
- 
-}
-.navs{
-  background-color: #81e0f3;
-  
-}
-.icons{
-  padding-left:100%;
+
 }
 
-  /*this is for right element styling*/
-.left{
+.me-2 {
+  max-width: 60%;
+}
+
+.brand {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #00b4d8;
+  color: white;
+  border-radius: 10px;
+
+}
+
+.navs {
+  background-color: #81e0f3;
+
+}
+
+.icons {
+  padding-left: 100%;
+}
+
+/*this is for right element styling*/
+.left {
   border-right: 1px solid black;
 }
-a:hover{
-background-color: bisque;
+
+a:hover {
+  background-color: bisque;
 }
-.right_row .user_profile_img{
+
+.right_row .user_profile_img {
   max-width: 240px;
   max-height: 50px;
 }
-.mains{
-  background-color:#e9edc9;
+
+.mains {
+  background-color: #e9edc9;
 }
-.left_container{
+
+.left_container {
   overflow-y: scroll;
   height: 100vh;
-  
+
 }
-body{
+
+body {
   width: cover;
   overflow-x: hidden;
   padding-top: 45px;
