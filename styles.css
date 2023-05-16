@@ -7,7 +7,7 @@
 }
 }
 .logo {
-  width: 60%;
+  width: 50%;
   height: 200px;
   margin: auto;
 }
@@ -50,9 +50,7 @@ div a {
   border-radius: 10px;
 }
 
-.bords {
-  border-bottom: 1px solid black;
-}
+
 
 #title {
   color: white;
@@ -94,6 +92,7 @@ div a {
 
 a:hover {
   background-color: bisque;
+  border-radius: 6px;
 }
 
 .right_row .user_profile_img {
@@ -124,11 +123,31 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
+.user_upload{
 
+  background-color: #00b4d8;
+  height: 0;
 
+  padding-bottom: 50%;
+  
+}
+video{
+  max-height: 550px;
+  width: 100%;
+}
 
-
-
+.group,.upload_buttons{
+  background-color: white;
+ 
+}
+@media (min-width: 992px) {
+  .group,.upload_buttons {
+    width: 80%;
+  }
+}
+ .btn-style{
+  background-color: #79832d;
+ }
 
 
 
