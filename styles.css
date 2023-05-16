@@ -115,3 +115,8 @@ body {
   overflow-x: hidden;
   padding-top: 45px;
 }
+/*this is for center or video section */
+.upload{
+  width: 70%;
+  background-color: #FFFFFF;
+}
