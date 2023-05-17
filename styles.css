@@ -149,16 +149,14 @@ video{
   background-color: #79832d;
  }
 
-
-
-
-
-
-
-
-
-
 /*this style is for right-side*/
 .right{
   height: 100vh;
+}
+.ads img{
+  max-width: 50%;
+  height: 80%;
+}
+.ads{
+  height:150px;
 }
