@@ -6,6 +6,10 @@
   position: fixed;
 }
 }
+.intro{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
 .logo {
   width: 50%;
   height: 200px;
@@ -58,16 +62,16 @@ div a {
 
 /*this style is for log-in*/
 
-/*This style is for Home Page*/
+/*This style is for nav-section*/
 .nav-wrap {
   max-height: 50px;
-
 }
-
 .me-2 {
   max-width: 60%;
 }
-
+.navig_small{
+  height:100vh;
+}
 .brand {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #00b4d8;
@@ -148,10 +152,15 @@ video{
  .btn-style{
   background-color: #79832d;
  }
+.c.btn:hover{
+  background-color: #00b4d8;
+}
 
 /*this style is for right-side*/
 .right{
   height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 .ads img{
   max-width: 50%;
