@@ -21,19 +21,19 @@
   <body>
    <!--This section is for header-->
 
-    <nav class="row navs fixed-top ">
-      <div class="row d-block d-sm-none ">
-
-        <nav class="navbar navbar-expand-lg ">
+    <nav class="row fixed-top ">
+      <!--This nav Appear only in small screen-->
+      <!-- <div class="row d-block d-sm-none  ">
+        <nav class="navbar navbar-expand-lg col-12 ">
           <div class="container-fluid ">
-            <a class="navbar-brand" href="#"> <div class="container-fluid col-3 my-auto my-5 px-auto "><span class="h1 text-white">VIDPARADE</span> </div></a>
+            <a class="navbar-brand" href="#"> <div class="container-fluid col-3 my-auto "><span class="h1 text-white">VIDPARADE</span> </div></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navig_small" id="navbarSupportedContent" >
               
               <div class="row right_row container-fluid">
-                <a href="user_profile"  class="user_profile mt-3 ms-3 ">
+                <a href="user_profile"  class="user_profile mt-3 ms-3 text-dark">
                  <div class="d-flex justify-content-space-between mx-0">
                <img src="profile.jpg" alt="profile" class="user_profile_img">
                <p class="ms-4 my-auto user-name fs-5"><strong> Brion Jestoni Diaz</strong></p></div>
@@ -122,16 +122,30 @@
                     <i class="bi bi-box-arrow-right fs-1"></i>
                  <p class="ms-4 my-auto user-name fs-5">Log-Out</p></div>
                  </a></div>
-
-            
+<hr>
+<footer class="row">
+  <div class="">
+  <ul class="list-unstyled d-flex flex-wrap ms-3 ">
+  <a href="privacy"><li class="mx-1 mt-1">Privacy</li></a>
+  <a href="terms"><li class="mx-1 mt-1">Terms</li></a>
+  <a href="contact"><li class="mx-1 mt-1">Contact</li></a>
+  <a href="cookies"><li class="mx-1 mt-1">Cookies</li></a>
+  <a href="about"><li class="mx-1 mt-1">About</li></a>
+  <a href="help"><li class="mx-1 mt-1">Help</li></a>
+  <a href="career"><li class="mx-1 mt-1">Careers</li></a>
+  <a href="career"><li class="mx-1 mt-1">&copy;Evolotion</li></a>
+  <a href="career"><li class="mx-1 mt-1">2023</li></a>
+  </ul>
+  </div>
+  </footer>
 
             </div>
           </div>
         </nav>
 
-      </div>
-<!---->
-      <div class="d-flex container-fluid nav-wrap col-4 my-auto ms-3">
+      </div> -->
+<!--end -->
+      <div class="d-flex container nav-wrap col-4 my-auto ">
         <form class="form-inline">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search">
@@ -142,19 +156,19 @@
             </div>
           </div>
         </form>
-        
       </div>
-      <div class="container-fluid col-3 my-auto brand my-5 px-auto d-none d-sm-block text-center "><span class="h1 text-white">VIDPARADE</span> </div>
+
+      <div class="container-fluid col-lg-3 col-sm-9 my-auto brand my-5 px-auto d-none d-sm-block text-center "><span class="h1 text-white">VIDPARADE</span> </div>
       <div class="col-4 d-flex align-items-center justify-content-end ">
 
         <div class="home">
-        <a href="/main.html" class="btn btn-secondary me-3 "
+        <a href="/main.html" class="btn btn-secondary me-1 "
           ><i class="bi bi-house"></i
         ></a></div>
 
         <div class="dropdown message">
           <a
-            class="btn btn-secondary me-3"
+            class="btn btn-secondary me-1"
             href="#"
             role="button"
             id="dropdownMenuLink"
@@ -172,7 +186,7 @@
 
         <div class="dropdown">
           <a
-            class="btn btn-secondary me-3"
+            class="btn btn-secondary me-1"
             href="#"
             role="button"
             id="dropdownMenuLink"
@@ -188,7 +202,7 @@
             <li><a class="dropdown-item" href="#other-user">Action 3</a></li>
           </ul>
         </div>
-      <div class="me-4 d-none d-sm-block"> <a href="index.html" class="btn btn-secondary"
+      <div class="d-none d-sm-block"> <a href="index.html" class="btn btn-secondary"
         ><i class="bi bi-box-arrow-right"></i> Log-Out</a></div>
       </div>
     </nav>
