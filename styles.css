@@ -1,5 +1,4 @@
 /*this style is for log-in page*/
-
 .intro{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
@@ -13,7 +12,6 @@
   color:white;
  
 }
-
 .log_in_body {
   background-color: #e0fbfc;
 }
@@ -21,24 +19,18 @@
 .form {
   background-color: #48cae4;
 }
-
-
 .button {
   text-align: center;
 }
-
 div a {
   text-decoration: none;
 }
-
 .log_in {
   width: 70%;
 }
-
 .border {
   border-radius: 10px;
 }
-
 body{
   overflow-x: hidden;
 }
@@ -46,7 +38,6 @@ body{
 #title {
   color: white;
 }
-
 /*this style is for log-in*/
 
 /*This style is for nav-section*/
@@ -65,10 +56,7 @@ body{
 .navs{
   background-color: #00b4d8;
 }
-
-
 /*this is for left element styling*/
-
 a:hover {
   background-color:#ade8f4;
   border-radius: 6px;
@@ -76,8 +64,6 @@ a:hover {
 footer{
   overflow-x: hidden;
 }
-
-
 .right_row .user_profile_img {
   max-width: 240px;
   max-height: 50px;
@@ -89,21 +75,15 @@ footer{
 .left_container {
   overflow-y: scroll;
   height: 100vh;
-
 }
-
 body {
   width: cover;
   overflow-x: hidden;
   padding-top: 45px;
- 
 }
 /*this for center styling */
-
-
 .content_wrap{
   height: 100vh;
-  overflow: hidden;
   overflow-y: scroll;
 }
 
@@ -122,14 +102,9 @@ video{
   }
 }
 
-.c.btn:hover{
-  background-color: #00b4d8;
-}
-
 /*this style is for right-side*/
 .right{
   height: 100vh;
-  overflow: hidden;
   overflow-y: scroll;
 }
 .ads img{
@@ -141,7 +116,14 @@ video{
 }
 .group{
   max-width: 100%;
+ 
 }
 body{
   overflow: hidden;
+}
+li:hover{
+  background-color: #ade8f4;
+}
+button:hover{
+  background-color: #ade8f4;
 }
