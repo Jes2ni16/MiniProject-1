@@ -12,7 +12,7 @@
   color:white;
  
 }
-.log_in_body {
+.log_in_body{
   background-color: #e0fbfc;
 }
 
@@ -126,4 +126,9 @@ li:hover{
 }
 button:hover{
   background-color: #ade8f4;
+}
+/*  */
+
+.infor{
+  background-color: #e0fbfc;
 }
