@@ -31,9 +31,7 @@ div a {
 .border {
   border-radius: 10px;
 }
-body{
-  overflow-x: hidden;
-}
+
 
 #title {
   color: white;
@@ -77,8 +75,8 @@ footer{
   height: 100vh;
 }
 body {
-  width: cover;
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x:none;
   padding-top: 45px;
 }
 /*this for center styling */
